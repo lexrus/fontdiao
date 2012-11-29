@@ -1,0 +1,99 @@
+/*
+Font Custom - icon webfonts made simple
+*/
+
+@font-face {
+  font-family: "fontdiao";
+  src: url("../font/fontdiao.eot?#iefix") format("embedded-opentype"),
+       url("../font/fontdiao.woff") format("woff"),
+       url("../font/fontdiao.ttf") format("truetype"),
+       url("../font/fontdiao.svg#fontdiao") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*
+Bootstrap Overrides
+*/
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: fontdiao, FontAwesome !important;
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+a [class^="icon-"], a [class*=" icon-"] {
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+/* makes the font 33% larger relative to the icon container */
+.icon-large:before {
+  vertical-align: top;
+  font-size: 1.333em;
+}
+
+/* keeps button heights with and without icons the same */
+.btn [class^="icon-"], .btn [class*=" icon-"] {
+  line-height: 0.9em;
+}
+
+li [class^="icon-"], li [class*=" icon-"] {
+  display: inline-block;
+  width: 1.25em;
+  text-align: center;
+}
+
+/* 1.5 increased font size for icon-large * 1.25 width */
+li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
+  width: 1.875em;
+}
+
+li[class^="icon-"], li[class*=" icon-"] {
+  margin-left: 0;
+  list-style-type: none;
+}
+
+li[class^="icon-"]:before, li[class*=" icon-"]:before {
+  text-indent: -2em;
+  text-align: center;
+}
+
+li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
+  text-indent: -1.333em;
+}
+
+/*
+Icon Classes
+*/
+
+.icon-360buy:before { content: "\f100"; }
+.icon-51buy:before { content: "\f101"; }
+.icon-58:before { content: "\f102"; }
+.icon-alibaba:before { content: "\f103"; }
+.icon-alipay:before { content: "\f104"; }
+.icon-baidu:before { content: "\f105"; }
+.icon-buluo:before { content: "\f106"; }
+.icon-cctv:before { content: "\f107"; }
+.icon-ctrip:before { content: "\f108"; }
+.icon-douban:before { content: "\f109"; }
+.icon-kx001:before { content: "\f10a"; }
+.icon-lianmeng:before { content: "\f10b"; }
+.icon-orca:before { content: "\f10c"; }
+.icon-qq:before { content: "\f10d"; }
+.icon-qzone:before { content: "\f10e"; }
+.icon-renren:before { content: "\f10f"; }
+.icon-taobao:before { content: "\f110"; }
+.icon-tenxunweibo:before { content: "\f111"; }
+.icon-tmall:before { content: "\f112"; }
+.icon-tudou:before { content: "\f113"; }
+.icon-v2ex:before { content: "\f114"; }
+.icon-wangyi:before { content: "\f115"; }
+.icon-weibo:before { content: "\f116"; }
+.icon-xunlei:before { content: "\f117"; }
+.icon-yamaxun:before { content: "\f118"; }
+.icon-yihaodian:before { content: "\f119"; }
+.icon-youku:before { content: "\f11a"; }
+.icon-zhenai:before { content: "\f11b"; }
