@@ -1,4 +1,6 @@
 /*
+FontDiao v0.0.2
+By Lex Tang <via http://lexrus.github.com/fontdiao>
 Font Custom - icon webfonts made simple
 */
 
@@ -17,7 +19,7 @@ Bootstrap Overrides
 */
 
 [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: fontdiao, FontAwesome !important;
+  font-family: "fontdiao", "FontAwesome" !important;
   font-weight: normal;
   font-style: normal;
   display: inline-block;
@@ -78,22 +80,37 @@ Icon Classes
 .icon-buluo:before { content: "\f106"; }
 .icon-cctv:before { content: "\f107"; }
 .icon-ctrip:before { content: "\f108"; }
-.icon-douban:before { content: "\f109"; }
-.icon-kx001:before { content: "\f10a"; }
-.icon-lianmeng:before { content: "\f10b"; }
-.icon-orca:before { content: "\f10c"; }
-.icon-qq:before { content: "\f10d"; }
-.icon-qzone:before { content: "\f10e"; }
-.icon-renren:before { content: "\f10f"; }
-.icon-taobao:before { content: "\f110"; }
-.icon-tenxunweibo:before { content: "\f111"; }
-.icon-tmall:before { content: "\f112"; }
-.icon-tudou:before { content: "\f113"; }
-.icon-v2ex:before { content: "\f114"; }
-.icon-wangyi:before { content: "\f115"; }
-.icon-weibo:before { content: "\f116"; }
-.icon-xunlei:before { content: "\f117"; }
-.icon-yamaxun:before { content: "\f118"; }
-.icon-yihaodian:before { content: "\f119"; }
-.icon-youku:before { content: "\f11a"; }
-.icon-zhenai:before { content: "\f11b"; }
+.icon-dongfangweishi:before { content: "\f109"; }
+.icon-douban:before { content: "\f10a"; }
+.icon-fanfou:before { content: "\f10b"; }
+.icon-feixin:before { content: "\f10c"; }
+.icon-fenghuangweishi:before { content: "\f10d"; }
+.icon-kds:before { content: "\f10e"; }
+.icon-kuangpai:before { content: "\f10f"; }
+.icon-kx001:before { content: "\f110"; }
+.icon-letv:before { content: "\f111"; }
+.icon-lianmeng:before { content: "\f112"; }
+.icon-miliao:before { content: "\f113"; }
+.icon-orca:before { content: "\f114"; }
+.icon-pps:before { content: "\f115"; }
+.icon-qicheren:before { content: "\f116"; }
+.icon-qq:before { content: "\f117"; }
+.icon-qzone:before { content: "\f118"; }
+.icon-renren:before { content: "\f119"; }
+.icon-shanghaidianshitai:before { content: "\f11a"; }
+.icon-taobao:before { content: "\f11b"; }
+.icon-tengxunshipin:before { content: "\f11c"; }
+.icon-tenxunweibo:before { content: "\f11d"; }
+.icon-tmall:before { content: "\f11e"; }
+.icon-tudou:before { content: "\f11f"; }
+.icon-v2ex:before { content: "\f120"; }
+.icon-wangyi:before { content: "\f121"; }
+.icon-weibo:before { content: "\f122"; }
+.icon-weifeng:before { content: "\f123"; }
+.icon-xunlei:before { content: "\f124"; }
+.icon-yamaxun:before { content: "\f125"; }
+.icon-yihaodian:before { content: "\f126"; }
+.icon-yinlian:before { content: "\f127"; }
+.icon-youdao:before { content: "\f128"; }
+.icon-youku:before { content: "\f129"; }
+.icon-zhenai:before { content: "\f12a"; }
