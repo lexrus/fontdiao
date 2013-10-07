@@ -3,8 +3,10 @@
 
 详见: [http://lexrus.github.io/fontdiao/](http://lexrus.github.io/fontdiao/)
 
+![](https://raw.github.com/lexrus/fontdiao/master/assets/fontdiao_iphone.jpg)
+
 ## 使用方法
-### Web 字体
+### Web
 ```
 <i class="icon-douban"></i>
 ```
@@ -16,12 +18,12 @@
 * 手工安装需要将 __fontdiao/ios/FontDiao__ 整个目录复制到你的项目中，再 ```#import "FontDiao.h"``` 即可。
 * 如果你使用 [CocoaPods](http://cocoapods.org)，在 Podfile 中 加上：
 ```pod 'FontDiao', :podspec => 'https://raw.github.com/lexrus/fontdiao/master/FontDiao.podspec'```
-* ```pod install``` 安装 Font屌到你的 workspace
+* ```pod install``` 安装 Font屌 到你的 workspace
 * ```#import <FontDiao/FontDiao.h>``` 导入头文件后即可使用。
-* __fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。
-
 
 iOS 版本目前实现了 UIImageView 和 UIButton 的 category，用起来非常简单，例： ```self.imageView1.icon = FDIconTmall;```。枚举的实现参考了 [ios-fontawesome](https://github.com/alexdrone/ios-fontawesome)，但是没有用 subclass 而是用 category 是为了提高兼容性，可以与其它第三方库共存。
+
+__fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。
 
 
 ## 更多 SVG !!!
