@@ -1,0 +1,121 @@
+/*
+  Icon Font: fontdiao
+*/
+
+@font-face {
+  font-family: "fontdiao";
+  src: url("../font/fontdiao.eot");
+  src: url("../font/fontdiao.eot?#iefix") format("embedded-opentype"),
+       url("../font/fontdiao.woff") format("woff"),
+       url("../font/fontdiao.ttf") format("truetype"),
+       url("../font/fontdiao.svg#fontdiao") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before { content: attr(data-icon); }
+
+[data-icon]:before,
+.icon-360yunpan:before,
+.icon-58:before,
+.icon-alibaba:before,
+.icon-alipay:before,
+.icon-baidu:before,
+.icon-baiduyun:before,
+.icon-cctv:before,
+.icon-ctrip:before,
+.icon-dangdang:before,
+.icon-dazhong:before,
+.icon-dianxin:before,
+.icon-dongfangweishi:before,
+.icon-douban:before,
+.icon-fanfou:before,
+.icon-fangzheng:before,
+.icon-feixin:before,
+.icon-fenghuangweishi:before,
+.icon-ganji:before,
+.icon-jd:before,
+.icon-kuandaishan:before,
+.icon-kx001:before,
+.icon-letv:before,
+.icon-liantong:before,
+.icon-miliao:before,
+.icon-pps:before,
+.icon-qq:before,
+.icon-qzone:before,
+.icon-renren:before,
+.icon-shanghaidianshitai:before,
+.icon-taobao:before,
+.icon-tengxunweibo:before,
+.icon-tmall:before,
+.icon-tudou:before,
+.icon-v2ex:before,
+.icon-wangyi:before,
+.icon-wangyiweibo:before,
+.icon-weibo:before,
+.icon-weifeng:before,
+.icon-xunlei:before,
+.icon-yihaodian:before,
+.icon-yinlian:before,
+.icon-yixun:before,
+.icon-youdao:before,
+.icon-youku:before,
+.icon-youzhen:before,
+.icon-zhenai:before {
+  font-family: "fontdiao";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  text-decoration: inherit;
+}
+
+.icon-360yunpan:before { content: "\f100"; }
+.icon-58:before { content: "\f101"; }
+.icon-alibaba:before { content: "\f102"; }
+.icon-alipay:before { content: "\f103"; }
+.icon-baidu:before { content: "\f104"; }
+.icon-baiduyun:before { content: "\f105"; }
+.icon-cctv:before { content: "\f106"; }
+.icon-ctrip:before { content: "\f107"; }
+.icon-dangdang:before { content: "\f108"; }
+.icon-dazhong:before { content: "\f109"; }
+.icon-dianxin:before { content: "\f10a"; }
+.icon-dongfangweishi:before { content: "\f10b"; }
+.icon-douban:before { content: "\f10c"; }
+.icon-fanfou:before { content: "\f10d"; }
+.icon-fangzheng:before { content: "\f10e"; }
+.icon-feixin:before { content: "\f10f"; }
+.icon-fenghuangweishi:before { content: "\f110"; }
+.icon-ganji:before { content: "\f111"; }
+.icon-jd:before { content: "\f112"; }
+.icon-kuandaishan:before { content: "\f113"; }
+.icon-kx001:before { content: "\f114"; }
+.icon-letv:before { content: "\f115"; }
+.icon-liantong:before { content: "\f116"; }
+.icon-miliao:before { content: "\f117"; }
+.icon-pps:before { content: "\f118"; }
+.icon-qq:before { content: "\f119"; }
+.icon-qzone:before { content: "\f11a"; }
+.icon-renren:before { content: "\f11b"; }
+.icon-shanghaidianshitai:before { content: "\f11c"; }
+.icon-taobao:before { content: "\f11d"; }
+.icon-tengxunweibo:before { content: "\f11e"; }
+.icon-tmall:before { content: "\f11f"; }
+.icon-tudou:before { content: "\f120"; }
+.icon-v2ex:before { content: "\f121"; }
+.icon-wangyi:before { content: "\f122"; }
+.icon-wangyiweibo:before { content: "\f123"; }
+.icon-weibo:before { content: "\f124"; }
+.icon-weifeng:before { content: "\f125"; }
+.icon-xunlei:before { content: "\f126"; }
+.icon-yihaodian:before { content: "\f127"; }
+.icon-yinlian:before { content: "\f128"; }
+.icon-yixun:before { content: "\f129"; }
+.icon-youdao:before { content: "\f12a"; }
+.icon-youku:before { content: "\f12b"; }
+.icon-youzhen:before { content: "\f12c"; }
+.icon-zhenai:before { content: "\f12d"; }

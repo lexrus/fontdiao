@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Font屌</title>
+    <meta name="author" content="Lex Tang">
+    <link rel="stylesheet" href="assets/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/index.css"/>
+    <link rel="stylesheet" href="fontdiao/css/fontdiao.css"/>
+</head>
+
+<body>
+<div id="page" class="container">
+    <div class="page-header text-center">
+        <h1>Font 屌
+            <small>中文图标字体</small>
+        </h1>
+        <a class="btn btn-default" href="https://github.com/lexrus/fontdiao">GitHub 仓库</a>
+        <a class="btn btn-default" href="https://github.com/lexrus/fontdiao/archive/master.zip">下载 fontdiao.zip</a>
+        <a class="btn btn-default" href="https://twitter.com/lexrus">关注 @lexrus</a>
+        <a class="btn btn-default" href="https://me.alipay.com/lexrus">支付宝资助</a>
+    </div>
+
+    <section id="screenshot" class="text-center">
+        <img class="iphone" src="assets/fontdiao_iphone.jpg" alt="FontDiao for iOS" width="361"/>
+    </section>
+
+    <section class="row">
+        <% @glyphs.each_with_index do |name, index| %>
+        <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 glyph">
+            <i class="<%= @opts.css_prefix + name %>"></i>
+            <input type="text" readonly="readonly" onClick="this.select();" value=".<%= @opts.css_prefix + name %>"/>
+            <input type="text" readonly="readonly" onClick="this.select();"
+                   value="&amp;#x<%= (61696+index).to_s(16) %>;"/>
+        </div>
+        <% end %>
+    </section>
+
+    <hr/>
+
+    <section id="why" class="row">
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <h3>支持 Retina 屏幕</h3>
+            没有 @2x 的图片，不需要 JavaScript，因为使用了矢量字体。另外次像素平滑技术将使你的图标更加清晰锐利。
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <h3><i class="icon-flag icon-large"></i> 一个字体包含 <%= @glyphs.length %> 个图标</h3>
+            客户端浏览器只下载一个字体，就能拥有 <%= @glyphs.length %> 个常用中文网站、知名企业的图标。
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <h3>支持 iOS</h3>
+            不仅能在 Web 中使用，还提供了能在 iOS 下使用的类，并且可以使用 CocoaPods 安装。
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <h3>提供 SVG 源文件</h3>
+            任何人都能改进这些图标，加入更多常用中文网站、应用的图标。
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <h3><i class="icon-pencil icon-large"></i> CSS 控制 (仅限 Web)</h3>
+            你可以非常方便地控制图标的颜色、大小、阴影等所有可以用 CSS 控制的属性。
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6">
+            <h3><i class="icon-resize-full icon-large"></i> 无限缩放</h3>
+            使用矢量图形的好处是无论怎样缩放它都能得到完美的视觉效果。
+        </div>
+    </section>
+
+    <footer>
+        Font屌 的所有图标来自互联网，大部分图标由位图转为矢量图，经过人工调整后，由 <a href="http://fontcustom.com">Font Custom</a> 转为字体。<br/>
+        Font屌 的 SVG、字体、CSS、HTML 遵循 <a href="http://www.wtfpl.net/">WTFPL</a>(爱咋整咋整) 协议，随便你怎么用，我不拒绝、不承诺、不负责。<br/>
+        Font屌 的 iOS 源码遵循 MIT 协议。<br/>
+        &copy; 版权没有 2013 <a href="http://lextang.com/">LexTang.com</a>
+    </footer>
+</div>
+</body>
+</html>
