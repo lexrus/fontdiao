@@ -101,7 +101,19 @@
             @"\uf12a",
             @"\uf12b",
             @"\uf12c",
-            @"\uf12d"
+            @"\uf12d",
+            @"\uf12e",
+            @"\uf12f",
+            @"\uf130",
+            @"\uf131",
+            @"\uf132",
+            @"\uf133",
+            @"\uf134",
+            @"\uf135",
+            @"\uf136",
+            @"\uf137",
+            @"\uf138",
+            @"\uf139"
         ];
     });
     return fontDiaoIcons;
@@ -132,17 +144,23 @@
         d[@"icon-feixin"] = @(FDIconFeixin);
         d[@"icon-fenghuangweishi"] = @(FDIconFenghuangweishi);
         d[@"icon-ganji"] = @(FDIconGanji);
+        d[@"icon-gongshangyinhang"] = @(FDIconGongshangyinhang);
         d[@"icon-jd"] = @(FDIconJd);
+        d[@"icon-jiansheyinhang"] = @(FDIconJiansheyinhang);
+        d[@"icon-jiaotongyinhang"] = @(FDIconJiaotongyinhang);
         d[@"icon-kuandaishan"] = @(FDIconKuandaishan);
         d[@"icon-kx001"] = @(FDIconKx001);
         d[@"icon-letv"] = @(FDIconLetv);
         d[@"icon-liantong"] = @(FDIconLiantong);
+        d[@"icon-lianxiang"] = @(FDIconLianxiang);
         d[@"icon-miliao"] = @(FDIconMiliao);
         d[@"icon-pps"] = @(FDIconPps);
         d[@"icon-qq"] = @(FDIconQq);
         d[@"icon-qzone"] = @(FDIconQzone);
+        d[@"icon-renminyinhang"] = @(FDIconRenminyinhang);
         d[@"icon-renren"] = @(FDIconRenren);
         d[@"icon-shanghaidianshitai"] = @(FDIconShanghaidianshitai);
+        d[@"icon-shanghaiyinhang"] = @(FDIconShanghaiyinhang);
         d[@"icon-taobao"] = @(FDIconTaobao);
         d[@"icon-tengxunweibo"] = @(FDIconTengxunweibo);
         d[@"icon-tmall"] = @(FDIconTmall);
@@ -152,14 +170,20 @@
         d[@"icon-wangyiweibo"] = @(FDIconWangyiweibo);
         d[@"icon-weibo"] = @(FDIconWeibo);
         d[@"icon-weifeng"] = @(FDIconWeifeng);
+        d[@"icon-xinyeyinhang"] = @(FDIconXinyeyinhang);
         d[@"icon-xunlei"] = @(FDIconXunlei);
         d[@"icon-yihaodian"] = @(FDIconYihaodian);
+        d[@"icon-yilong"] = @(FDIconYilong);
         d[@"icon-yinlian"] = @(FDIconYinlian);
         d[@"icon-yixun"] = @(FDIconYixun);
         d[@"icon-youdao"] = @(FDIconYoudao);
         d[@"icon-youku"] = @(FDIconYouku);
         d[@"icon-youzhen"] = @(FDIconYouzhen);
+        d[@"icon-zhaoshangyinhang"] = @(FDIconZhaoshangyinhang);
         d[@"icon-zhenai"] = @(FDIconZhenai);
+        d[@"icon-zheshangyinhang"] = @(FDIconZheshangyinhang);
+        d[@"icon-zhongguoyinhang"] = @(FDIconZhongguoyinhang);
+        d[@"icon-zhongxinyinhang"] = @(FDIconZhongxinyinhang);
 
         enumDictionary = d;
     });
