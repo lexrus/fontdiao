@@ -20,6 +20,7 @@ desc 'Push master'
 task :push do
 	system('git checkout master')
 	system('git status')
+	system('git add .')
 	system('git commit -am "..."')
 	system('git push origin master')
 end
