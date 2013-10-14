@@ -1,7 +1,7 @@
 # Font屌 中文图标字体
-可用于 Web 和 iOS 应用的中文图标字体，同时提供了国内各种常用网站、应用的徽标 SVG 源文件。
+可用于 Web 和 iOS 应用的中文图标字体，同时提供了国内各种常用网站、应用、知名企业的徽标 SVG 源文件。
 
-详见: [http://lexrus.github.io/fontdiao/](http://lexrus.github.io/fontdiao/)
+__图标列表详传送门__ [http://lexrus.github.io/fontdiao/](http://lexrus.github.io/fontdiao/)
 
 ![](https://raw.github.com/lexrus/fontdiao/master/assets/fontdiao_iphone.jpg)
 
@@ -15,6 +15,7 @@
 
 ### iOS
 
+* 仅支持 iOS 5.0 或更高版本的系统。
 * 手工安装需要将 __fontdiao/ios/FontDiao__ 整个目录复制到你的项目中，再 ```#import "FontDiao.h"``` 即可。
 * 如果你使用 [CocoaPods](http://cocoapods.org)，在 Podfile 中 加上：
 ```pod 'FontDiao', :podspec => 'https://raw.github.com/lexrus/fontdiao/master/FontDiao.podspec'```
@@ -28,6 +29,8 @@ __fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。
 
 ## 更多 SVG !!!
 欢迎你在 [issues](https://github.com/lexrus/fontdiao/issues?state=open) 里提出加入新的 svg 文件的要求。如果你只能提供位图，我只能抽空把它转成 svg，通常这样比较费时间，所以我建议你先用 Illustrator、iDraw、Inkscape 等工具自己做。但无论怎样，我都将非常感谢你的贡献。
+
+__需要特别注意的是: __ svg 图片__必须是正方型__，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300，以便统一所有 svg 尺寸。
 
 
 ## 重新生成

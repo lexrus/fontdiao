@@ -79,6 +79,7 @@
 .icon-zhaoshangyinhang:before,
 .icon-zhenai:before,
 .icon-zheshangyinhang:before,
+.icon-zhihu:before,
 .icon-zhongguoyinhang:before,
 .icon-zhongxinyinhang:before {
   font-family: "fontdiao";
@@ -155,5 +156,6 @@
 .icon-zhaoshangyinhang:before { content: "\f13c"; }
 .icon-zhenai:before { content: "\f13d"; }
 .icon-zheshangyinhang:before { content: "\f13e"; }
-.icon-zhongguoyinhang:before { content: "\f13f"; }
-.icon-zhongxinyinhang:before { content: "\f140"; }
+.icon-zhihu:before { content: "\f13f"; }
+.icon-zhongguoyinhang:before { content: "\f140"; }
+.icon-zhongxinyinhang:before { content: "\f141"; }

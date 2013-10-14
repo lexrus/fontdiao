@@ -94,6 +94,7 @@ typedef NS_ENUM(NSInteger, FDIcon) {
     FDIconZhaoshangyinhang,
     FDIconZhenai,
     FDIconZheshangyinhang,
+    FDIconZhihu,
     FDIconZhongguoyinhang,
     FDIconZhongxinyinhang
 };
