@@ -113,7 +113,14 @@
             @"\uf136",
             @"\uf137",
             @"\uf138",
-            @"\uf139"
+            @"\uf139",
+            @"\uf13a",
+            @"\uf13b",
+            @"\uf13c",
+            @"\uf13d",
+            @"\uf13e",
+            @"\uf13f",
+            @"\uf140"
         ];
     });
     return fontDiaoIcons;
@@ -128,14 +135,17 @@
         
         d[@"icon-360yunpan"] = @(FDIcon360yunpan);
         d[@"icon-58"] = @(FDIcon58);
+        d[@"icon-acer"] = @(FDIconAcer);
         d[@"icon-alibaba"] = @(FDIconAlibaba);
         d[@"icon-alipay"] = @(FDIconAlipay);
+        d[@"icon-asus"] = @(FDIconAsus);
         d[@"icon-baidu"] = @(FDIconBaidu);
         d[@"icon-baiduyun"] = @(FDIconBaiduyun);
         d[@"icon-cctv"] = @(FDIconCctv);
         d[@"icon-ctrip"] = @(FDIconCtrip);
         d[@"icon-dangdang"] = @(FDIconDangdang);
         d[@"icon-dazhong"] = @(FDIconDazhong);
+        d[@"icon-dianping"] = @(FDIconDianping);
         d[@"icon-dianxin"] = @(FDIconDianxin);
         d[@"icon-dongfangweishi"] = @(FDIconDongfangweishi);
         d[@"icon-douban"] = @(FDIconDouban);
@@ -148,12 +158,15 @@
         d[@"icon-jd"] = @(FDIconJd);
         d[@"icon-jiansheyinhang"] = @(FDIconJiansheyinhang);
         d[@"icon-jiaotongyinhang"] = @(FDIconJiaotongyinhang);
+        d[@"icon-jijia"] = @(FDIconJijia);
+        d[@"icon-kingsoft"] = @(FDIconKingsoft);
         d[@"icon-kuandaishan"] = @(FDIconKuandaishan);
         d[@"icon-kx001"] = @(FDIconKx001);
         d[@"icon-letv"] = @(FDIconLetv);
         d[@"icon-liantong"] = @(FDIconLiantong);
         d[@"icon-lianxiang"] = @(FDIconLianxiang);
         d[@"icon-miliao"] = @(FDIconMiliao);
+        d[@"icon-mop"] = @(FDIconMop);
         d[@"icon-pps"] = @(FDIconPps);
         d[@"icon-qq"] = @(FDIconQq);
         d[@"icon-qzone"] = @(FDIconQzone);
@@ -168,6 +181,7 @@
         d[@"icon-v2ex"] = @(FDIconV2ex);
         d[@"icon-wangyi"] = @(FDIconWangyi);
         d[@"icon-wangyiweibo"] = @(FDIconWangyiweibo);
+        d[@"icon-wechat"] = @(FDIconWechat);
         d[@"icon-weibo"] = @(FDIconWeibo);
         d[@"icon-weifeng"] = @(FDIconWeifeng);
         d[@"icon-xinyeyinhang"] = @(FDIconXinyeyinhang);
