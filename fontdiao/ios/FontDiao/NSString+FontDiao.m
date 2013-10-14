@@ -120,7 +120,8 @@
             @"\uf13d",
             @"\uf13e",
             @"\uf13f",
-            @"\uf140"
+            @"\uf140",
+            @"\uf141"
         ];
     });
     return fontDiaoIcons;
@@ -196,6 +197,7 @@
         d[@"icon-zhaoshangyinhang"] = @(FDIconZhaoshangyinhang);
         d[@"icon-zhenai"] = @(FDIconZhenai);
         d[@"icon-zheshangyinhang"] = @(FDIconZheshangyinhang);
+        d[@"icon-zhihu"] = @(FDIconZhihu);
         d[@"icon-zhongguoyinhang"] = @(FDIconZhongguoyinhang);
         d[@"icon-zhongxinyinhang"] = @(FDIconZhongxinyinhang);
 
