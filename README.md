@@ -30,7 +30,7 @@ __fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。
 ## 更多 SVG !!!
 欢迎你在 [issues](https://github.com/lexrus/fontdiao/issues?state=open) 里提出加入新的 svg 文件的要求。如果你只能提供位图，我只能抽空把它转成 svg，通常这样比较费时间，所以我建议你先用 Illustrator、iDraw、Inkscape 等工具自己做。但无论怎样，我都将非常感谢你的贡献。
 
-__需要特别注意的是: __ svg 图片__必须是正方型__，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300，以便统一所有 svg 尺寸。
+__需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300，以便统一所有 SVG 尺寸。
 
 
 ## 重新生成
@@ -48,6 +48,8 @@ __需要特别注意的是: __ svg 图片__必须是正方型__，图标应该�
 * ```gem install fontcustom``` 搞定
 
 在项目根目录运行 ```rake``` 命令就能用 SVG 生成所有需要的文件了。
+
+项目中的大部分 SVG 经过 [svgo](https://github.com/svg/svgo) 优化，但是通常这一步不是必须的。
 
 
 ## 资助
