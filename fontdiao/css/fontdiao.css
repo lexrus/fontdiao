@@ -79,6 +79,7 @@
 .icon-zhaoshangyinhang:before,
 .icon-zhenai:before,
 .icon-zheshangyinhang:before,
+.icon-zhihu-square:before,
 .icon-zhihu:before,
 .icon-zhongguoyinhang:before,
 .icon-zhongxinyinhang:before {
@@ -156,6 +157,7 @@
 .icon-zhaoshangyinhang:before { content: "\f13c"; }
 .icon-zhenai:before { content: "\f13d"; }
 .icon-zheshangyinhang:before { content: "\f13e"; }
-.icon-zhihu:before { content: "\f13f"; }
-.icon-zhongguoyinhang:before { content: "\f140"; }
-.icon-zhongxinyinhang:before { content: "\f141"; }
+.icon-zhihu-square:before { content: "\f13f"; }
+.icon-zhihu:before { content: "\f140"; }
+.icon-zhongguoyinhang:before { content: "\f141"; }
+.icon-zhongxinyinhang:before { content: "\f142"; }
