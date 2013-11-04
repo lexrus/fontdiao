@@ -28,6 +28,7 @@
 
 #import "UIImageView+FontDiao.h"
 #import "UIFont+FontDiao.h"
+#import <QuartzCore/QuartzCore.h>
 #import <objc/runtime.h>
 
 const static char kIconViewKey;

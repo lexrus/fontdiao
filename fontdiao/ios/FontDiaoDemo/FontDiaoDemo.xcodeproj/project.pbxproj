@@ -14,7 +14,6 @@
 		D703A1E718028BD300D9A853 /* fontdiao.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D703A1E618028BD300D9A853 /* fontdiao.ttf */; };
 		D703A1EA180297E000D9A853 /* UIButton+FontDiao.m in Sources */ = {isa = PBXBuildFile; fileRef = D703A1E9180297E000D9A853 /* UIButton+FontDiao.m */; };
 		D7B48DD318026956007E16B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B48DD218026956007E16B1 /* Foundation.framework */; };
-		D7B48DD518026956007E16B1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B48DD418026956007E16B1 /* CoreGraphics.framework */; };
 		D7B48DD718026956007E16B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B48DD618026956007E16B1 /* UIKit.framework */; };
 		D7B48DDD18026956007E16B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B48DDB18026956007E16B1 /* InfoPlist.strings */; };
 		D7B48DDF18026956007E16B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B48DDE18026956007E16B1 /* main.m */; };
@@ -26,6 +25,8 @@
 		D7B48DF618026957007E16B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B48DF418026957007E16B1 /* InfoPlist.strings */; };
 		D7B48DF818026957007E16B1 /* FontDiaoDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B48DF718026957007E16B1 /* FontDiaoDemoTests.m */; };
 		D7B48E0818026D1F007E16B1 /* NSString+FontDiao.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B48E0718026D1F007E16B1 /* NSString+FontDiao.m */; };
+		D7C3A0FA1827E9FA0089E9AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B48DD418026956007E16B1 /* CoreGraphics.framework */; };
+		D7C3A0FC1827EAFB0089E9AE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C3A0FB1827EAFB0089E9AE /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		D7B48DF718026957007E16B1 /* FontDiaoDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontDiaoDemoTests.m; sourceTree = "<group>"; };
 		D7B48E0618026D1F007E16B1 /* NSString+FontDiao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FontDiao.h"; sourceTree = "<group>"; };
 		D7B48E0718026D1F007E16B1 /* NSString+FontDiao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FontDiao.m"; sourceTree = "<group>"; };
+		D7C3A0FB1827EAFB0089E9AE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7B48DD518026956007E16B1 /* CoreGraphics.framework in Frameworks */,
+				D7C3A0FC1827EAFB0089E9AE /* QuartzCore.framework in Frameworks */,
+				D7C3A0FA1827E9FA0089E9AE /* CoreGraphics.framework in Frameworks */,
 				D7B48DD718026956007E16B1 /* UIKit.framework in Frameworks */,
 				D7B48DD318026956007E16B1 /* Foundation.framework in Frameworks */,
 			);
@@ -125,6 +128,7 @@
 		D7B48DD118026956007E16B1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D7C3A0FB1827EAFB0089E9AE /* QuartzCore.framework */,
 				D7B48DD218026956007E16B1 /* Foundation.framework */,
 				D7B48DD418026956007E16B1 /* CoreGraphics.framework */,
 				D7B48DD618026956007E16B1 /* UIKit.framework */,
@@ -425,6 +429,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontDiaoDemo/FontDiaoDemo-Prefix.pch";
 				INFOPLIST_FILE = "FontDiaoDemo/FontDiaoDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -444,6 +449,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FontDiaoDemo/FontDiaoDemo-Prefix.pch";
 				INFOPLIST_FILE = "FontDiaoDemo/FontDiaoDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
