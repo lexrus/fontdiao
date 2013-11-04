@@ -69,7 +69,7 @@
     dispatch_once(&enumToken, ^{
         NSMutableDictionary *d = [[NSMutableDictionary alloc] init];
         <% @glyphs.each_with_index do |name, index| %>
-        d[@"<%= @opts.css_prefix %><%= name %>"] = @(FDIcon<%= name.capitalize %>);<% end %>
+        d[@"<%= @opts.css_prefix %><%= name %>"] = @(FDIcon<%= name.capitalize.delete '-' %>);<% end %>
 
         enumDictionary = d;
     });

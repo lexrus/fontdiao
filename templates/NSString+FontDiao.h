@@ -31,7 +31,7 @@
 static NSString *const kFontDiaoFamilyName = @"fontdiao";
 
 typedef NS_ENUM(NSInteger, FDIcon) {<% @glyphs.each_with_index do |name, index| %>
-    FDIcon<%= name.capitalize %><% if index == 0 %> = 0<% end %><% if index != @glyphs.length - 1 %>,<% end %><% end %>
+    FDIcon<%= name.capitalize.delete '-' %><% if index == 0 %> = 0<% end %><% if index != @glyphs.length - 1 %>,<% end %><% end %>
 };
 
 @interface NSString (FontDiao)

@@ -204,7 +204,7 @@
         d[@"icon-zhaoshangyinhang"] = @(FDIconZhaoshangyinhang);
         d[@"icon-zhenai"] = @(FDIconZhenai);
         d[@"icon-zheshangyinhang"] = @(FDIconZheshangyinhang);
-        d[@"icon-zhihu-square"] = @(FDIconZhihu-square);
+        d[@"icon-zhihu-square"] = @(FDIconZhihusquare);
         d[@"icon-zhihu"] = @(FDIconZhihu);
         d[@"icon-zhongguoyinhang"] = @(FDIconZhongguoyinhang);
         d[@"icon-zhongxinyinhang"] = @(FDIconZhongxinyinhang);
