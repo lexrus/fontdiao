@@ -17,9 +17,9 @@ __图标列表详传送门__ [http://lexrus.github.io/fontdiao/](http://lexrus.g
 
 * 仅支持 iOS 5.0 或更高版本的系统。
 * 手工安装需要将 __fontdiao/ios/FontDiao__ 整个目录复制到你的项目中，再 ```#import "FontDiao.h"``` 即可。
-* 如果你使用 [CocoaPods](http://cocoapods.org)，在 Podfile 中 加上：
-```pod 'FontDiao', :podspec => 'https://raw.github.com/lexrus/fontdiao/master/FontDiao.podspec'```
-* ```pod install``` 安装 Font屌 到你的 workspace
+* 如果你使用 [CocoaPods](http://cocoapods.org)，在 Podfile 中加上：
+```pod 'FontDiao', '~> 0.0.8'```
+* 运行 ```pod install``` 安装 Font屌 到你的 workspace
 * ```#import <FontDiao/FontDiao.h>``` 导入头文件后即可使用。
 
 iOS 版本目前实现了 UIImageView 和 UIButton 的 category，用起来非常简单，例： ```self.imageView1.icon = FDIconTmall;```。枚举的实现参考了 [ios-fontawesome](https://github.com/alexdrone/ios-fontawesome)，但是没有用 subclass 而是用 category 是为了提高兼容性，可以与其它第三方库共存。
@@ -30,7 +30,7 @@ __fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。
 ## 更多 SVG !!!
 欢迎你在 [issues](https://github.com/lexrus/fontdiao/issues?state=open) 里提出加入新的 svg 文件的要求。如果你只能提供位图，我只能抽空把它转成 svg，通常这样比较费时间，所以我建议你先用 Illustrator、iDraw、Inkscape 等工具自己做。但无论怎样，我都将非常感谢你的贡献。
 
-__需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300，以便统一所有 SVG 尺寸。
+__需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300px，以便统一所有 SVG 尺寸。
 
 
 ## 重新生成
@@ -49,7 +49,7 @@ __需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这
 
 在项目根目录运行 ```rake``` 命令就能用 SVG 生成所有需要的文件了。
 
-项目中的大部分 SVG 经过 [svgo](https://github.com/svg/svgo) 优化，但是通常这一步不是必须的。
+项目中的大部分 SVG 文件经过 [svgo](https://github.com/svg/svgo) 优化，但是通常这一步不是必须的，而且某些 SVG 经过 svgo 处理会别成其它图形...
 
 
 ## 资助
