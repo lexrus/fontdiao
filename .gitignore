@@ -88,3 +88,4 @@ tmp
 
 # Ignore vendor cache
 vendor/cache
+*.xccheckout
