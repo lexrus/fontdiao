@@ -34,7 +34,7 @@
 
 + (FDIcon)fontDiaoEnumForIconIdentifier:(NSString *)iconIndentifier
 {
-    NSDictionary *enums = [self enumDictionary];
+    NSDictionary *enums = [self fontDiaoIconsDictionary];
     return [enums[iconIndentifier] integerValue];
 }
 
@@ -62,7 +62,7 @@
     return fontDiaoIcons;
 }
 
-+ (NSDictionary*)enumDictionary
++ (NSDictionary*)fontDiaoIconsDictionary
 {
     static dispatch_once_t enumToken;
     static NSDictionary *enumDictionary;
@@ -74,6 +74,11 @@
         enumDictionary = d;
     });
     return enumDictionary;
+}
+
++ (uint)fontDiaoIconsCount
+{
+    return [self fontDiaoIcons].count;
 }
 
 @end

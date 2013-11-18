@@ -28,6 +28,8 @@
 	<array>
 		<string>fontdiao.ttf</string>
 	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>FDDemo</string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

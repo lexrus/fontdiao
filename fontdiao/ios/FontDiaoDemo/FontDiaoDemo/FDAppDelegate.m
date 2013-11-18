@@ -7,20 +7,11 @@
 //
 
 #import "FDAppDelegate.h"
-#import "FDRootViewController.h"
 
 @implementation FDAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.backgroundColor = [UIColor whiteColor];
-
-    FDRootViewController *rootViewController = [[FDRootViewController alloc] initWithNibName:@"FDRootViewController" bundle:nil];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:rootViewController];
-    self.window.rootViewController = navigationController;
-    
-    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -10,9 +10,10 @@
 		D703A1DC18027ED900D9A853 /* UIFont+FontDiao.m in Sources */ = {isa = PBXBuildFile; fileRef = D703A1DB18027ED900D9A853 /* UIFont+FontDiao.m */; };
 		D703A1DF18027F9F00D9A853 /* UIImageView+FontDiao.m in Sources */ = {isa = PBXBuildFile; fileRef = D703A1DE18027F9F00D9A853 /* UIImageView+FontDiao.m */; };
 		D703A1E318028A0900D9A853 /* FDRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D703A1E118028A0900D9A853 /* FDRootViewController.m */; };
-		D703A1E418028A0900D9A853 /* FDRootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D703A1E218028A0900D9A853 /* FDRootViewController.xib */; };
 		D703A1E718028BD300D9A853 /* fontdiao.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D703A1E618028BD300D9A853 /* fontdiao.ttf */; };
 		D703A1EA180297E000D9A853 /* UIButton+FontDiao.m in Sources */ = {isa = PBXBuildFile; fileRef = D703A1E9180297E000D9A853 /* UIButton+FontDiao.m */; };
+		D7709CA3183A4BF300B7530C /* FDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7709CA2183A4BF300B7530C /* FDCollectionViewCell.m */; };
+		D7709CA5183A58F500B7530C /* FDDemo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7709CA4183A58F500B7530C /* FDDemo.storyboard */; };
 		D7B48DD318026956007E16B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B48DD218026956007E16B1 /* Foundation.framework */; };
 		D7B48DD718026956007E16B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7B48DD618026956007E16B1 /* UIKit.framework */; };
 		D7B48DDD18026956007E16B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7B48DDB18026956007E16B1 /* InfoPlist.strings */; };
@@ -46,11 +47,13 @@
 		D703A1DE18027F9F00D9A853 /* UIImageView+FontDiao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+FontDiao.m"; sourceTree = "<group>"; };
 		D703A1E018028A0900D9A853 /* FDRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDRootViewController.h; sourceTree = "<group>"; };
 		D703A1E118028A0900D9A853 /* FDRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDRootViewController.m; sourceTree = "<group>"; };
-		D703A1E218028A0900D9A853 /* FDRootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FDRootViewController.xib; sourceTree = "<group>"; };
 		D703A1E618028BD300D9A853 /* fontdiao.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontdiao.ttf; sourceTree = "<group>"; };
 		D703A1E8180297E000D9A853 /* UIButton+FontDiao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+FontDiao.h"; sourceTree = "<group>"; };
 		D703A1E9180297E000D9A853 /* UIButton+FontDiao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+FontDiao.m"; sourceTree = "<group>"; };
 		D703A1EB18029B0B00D9A853 /* FontDiao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontDiao.h; sourceTree = "<group>"; };
+		D7709CA1183A4BF300B7530C /* FDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCollectionViewCell.h; sourceTree = "<group>"; };
+		D7709CA2183A4BF300B7530C /* FDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCollectionViewCell.m; sourceTree = "<group>"; };
+		D7709CA4183A58F500B7530C /* FDDemo.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FDDemo.storyboard; sourceTree = "<group>"; };
 		D7B48DCF18026956007E16B1 /* FontDiaoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontDiaoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7B48DD218026956007E16B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D7B48DD418026956007E16B1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -146,7 +149,9 @@
 				D7B48DD918026956007E16B1 /* Supporting Files */,
 				D703A1E018028A0900D9A853 /* FDRootViewController.h */,
 				D703A1E118028A0900D9A853 /* FDRootViewController.m */,
-				D703A1E218028A0900D9A853 /* FDRootViewController.xib */,
+				D7709CA1183A4BF300B7530C /* FDCollectionViewCell.h */,
+				D7709CA2183A4BF300B7530C /* FDCollectionViewCell.m */,
+				D7709CA4183A58F500B7530C /* FDDemo.storyboard */,
 			);
 			path = FontDiaoDemo;
 			sourceTree = "<group>";
@@ -275,8 +280,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D703A1E718028BD300D9A853 /* fontdiao.ttf in Resources */,
+				D7709CA5183A58F500B7530C /* FDDemo.storyboard in Resources */,
 				D7B48DDD18026956007E16B1 /* InfoPlist.strings in Resources */,
-				D703A1E418028A0900D9A853 /* FDRootViewController.xib in Resources */,
 				D7B48DE518026956007E16B1 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +303,7 @@
 			files = (
 				D703A1DC18027ED900D9A853 /* UIFont+FontDiao.m in Sources */,
 				D703A1EA180297E000D9A853 /* UIButton+FontDiao.m in Sources */,
+				D7709CA3183A4BF300B7530C /* FDCollectionViewCell.m in Sources */,
 				D703A1DF18027F9F00D9A853 /* UIImageView+FontDiao.m in Sources */,
 				D7B48DE318026956007E16B1 /* FDAppDelegate.m in Sources */,
 				D7B48E0818026D1F007E16B1 /* NSString+FontDiao.m in Sources */,

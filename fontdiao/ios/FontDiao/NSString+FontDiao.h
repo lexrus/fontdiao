@@ -111,4 +111,8 @@ typedef NS_ENUM(NSInteger, FDIcon) {
 
 + (NSString*)fontDiaoIconStringForIconIdentifier:(NSString*)iconIdentifier;
 
++ (NSDictionary*)fontDiaoIconsDictionary;
+
++ (uint)fontDiaoIconsCount;
+
 @end

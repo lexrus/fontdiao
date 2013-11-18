@@ -42,4 +42,8 @@ typedef NS_ENUM(NSInteger, FDIcon) {<% @glyphs.each_with_index do |name, index| 
 
 + (NSString*)fontDiaoIconStringForIconIdentifier:(NSString*)iconIdentifier;
 
++ (NSDictionary*)fontDiaoIconsDictionary;
+
++ (uint)fontDiaoIconsCount;
+
 @end
