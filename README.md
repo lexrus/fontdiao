@@ -1,7 +1,7 @@
 # Font屌 中文图标字体
-可用于 Web 和 iOS 应用的中文图标字体，同时提供了国内各种常用网站、应用、知名企业的徽标 SVG 源文件。
+用于 Web 和 iOS 应用的中文图标字体，同时提供了国内各种常用网站、应用、知名企业的徽标 SVG 源文件。
 
-__图标列表详传送门__ [http://lexrus.github.io/fontdiao/](http://lexrus.github.io/fontdiao/)
+__图标列表传送门__ [http://lexrus.github.io/fontdiao/](http://lexrus.github.io/fontdiao/)
 
 ![](https://raw.github.com/lexrus/fontdiao/master/assets/fontdiao_iphone.jpg)
 
@@ -28,7 +28,7 @@ __fontdiao/ios/FontDiaoDemo__ 这个项目演示了如何使用 Font屌。
 
 
 ## 更多 SVG !!!
-欢迎你在 [issues](https://github.com/lexrus/fontdiao/issues?state=open) 里提出加入新的 svg 文件的要求。如果你只能提供位图，我只能抽空把它转成 svg，通常这样比较费时间，所以我建议你先用 Illustrator、iDraw、Inkscape 等工具自己做。但无论怎样，我都将非常感谢你的贡献。
+欢迎你在 [issues](https://github.com/lexrus/fontdiao/issues?state=open) 里提出加入新的 svg 文件的要求。如果你只能提供位图，我只能抽空把它转成 svg，通常这样比较费时间，所以我建议你先用 Illustrator、iDraw 等工具自己做。但无论怎样，我都将非常感谢你的贡献。
 
 __需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这个正方型中居中，而且最好能将整张图片缩放到 300x300px，以便统一所有 SVG 尺寸。
 
@@ -36,24 +36,17 @@ __需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这
 ## 重新生成
 你需要:
 
-* Ruby 2.0.0p247 (当然 1.9.x 以上应该都可以)
 * FontForge
 * [FontCustom](http://fontcustom.com)
 
-这三个东西在 Mac 上用 [Homebrew](http://brew.sh) 非常好装:
+在 Mac 上用 [Homebrew](http://brew.sh) 安装 fontforge:
 
 * ```brew install fontforge ttfautohint``` 装上 FontForge 和 TTFAutoHint
-* ```brew install rbenv && brew install ruby-build``` 安装 rbenv
-* ```rbenv install 2.0.0-p247 && rbenv global 2.0.0-p247``` 装上 Ruby 2 并设置为全局版本
-* ```gem install fontcustom``` 搞定
+* ```gem install fontcustom```
 
 在项目根目录运行 ```rake``` 命令就能用 SVG 生成所有需要的文件了。
 
 项目中的大部分 SVG 文件经过 [svgo](https://github.com/svg/svgo) 优化，但是通常这一步不是必须的，而且某些 SVG 经过 svgo 处理会别成其它图形...
-
-
-## 资助
-维护这些 SVG 是个体力活，如果你在工作中用到了这个项目，那就 [请我喝一杯咖啡吧](http://me.alipay.com/lexrus)。
 
 
 ## 商标法
@@ -85,7 +78,7 @@ __需要特别注意的是__:  SVG 图片必须是正方型，图标应该在这
 
 ```
 The MIT License (MIT)
-Copyright © 2013 Lex Tang, http://LexTang.com
+Copyright © 2014 Lex Tang, http://LexTang.com
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the “Software”), to deal
@@ -105,7 +98,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ```
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/lexrus/fontdiao/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
