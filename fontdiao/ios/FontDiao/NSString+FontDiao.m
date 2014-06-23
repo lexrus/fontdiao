@@ -125,7 +125,10 @@
             @"\uf142",
             @"\uf143",
             @"\uf144",
-            @"\uf145"
+            @"\uf145",
+            @"\uf146",
+            @"\uf147",
+            @"\uf148"
         ];
     });
     return fontDiaoIcons;
@@ -176,6 +179,7 @@
         d[@"icon-mop"] = @(FDIconMop);
         d[@"icon-pps"] = @(FDIconPps);
         d[@"icon-qq"] = @(FDIconQq);
+        d[@"icon-qqyinyue"] = @(FDIconQqyinyue);
         d[@"icon-qzone"] = @(FDIconQzone);
         d[@"icon-renminyinhang"] = @(FDIconRenminyinhang);
         d[@"icon-renren"] = @(FDIconRenren);
@@ -188,9 +192,11 @@
         d[@"icon-v2ex"] = @(FDIconV2ex);
         d[@"icon-wangyi"] = @(FDIconWangyi);
         d[@"icon-wangyiweibo"] = @(FDIconWangyiweibo);
+        d[@"icon-wangyiyunyinyue"] = @(FDIconWangyiyunyinyue);
         d[@"icon-wechat"] = @(FDIconWechat);
         d[@"icon-weibo"] = @(FDIconWeibo);
         d[@"icon-weifeng"] = @(FDIconWeifeng);
+        d[@"icon-xiami"] = @(FDIconXiami);
         d[@"icon-xiaomi"] = @(FDIconXiaomi);
         d[@"icon-xinyeyinhang"] = @(FDIconXinyeyinhang);
         d[@"icon-xunlei"] = @(FDIconXunlei);
