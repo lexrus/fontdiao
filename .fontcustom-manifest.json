@@ -1,0 +1,355 @@
+{
+  "checksum": {
+    "previous": "ed70d31f490d26041b8b6f0106a1de472962bebcda894cc84705480651c467d7",
+    "current": "ed70d31f490d26041b8b6f0106a1de472962bebcda894cc84705480651c467d7"
+  },
+  "fonts": [
+    "fontdiao/font/fontdiao.ttf",
+    "fontdiao/font/fontdiao.svg",
+    "fontdiao/font/fontdiao.woff",
+    "fontdiao/font/fontdiao.eot"
+  ],
+  "glyphs": {
+    "360yunpan": {
+      "codepoint": 61696,
+      "source": "svg/360yunpan.svg"
+    },
+    "58": {
+      "codepoint": 61697,
+      "source": "svg/58.svg"
+    },
+    "acer": {
+      "codepoint": 61698,
+      "source": "svg/acer.svg"
+    },
+    "alibaba": {
+      "codepoint": 61699,
+      "source": "svg/alibaba.svg"
+    },
+    "alipay": {
+      "codepoint": 61700,
+      "source": "svg/alipay.svg"
+    },
+    "asus": {
+      "codepoint": 61701,
+      "source": "svg/asus.svg"
+    },
+    "baidu": {
+      "codepoint": 61702,
+      "source": "svg/baidu.svg"
+    },
+    "baiduyun": {
+      "codepoint": 61703,
+      "source": "svg/baiduyun.svg"
+    },
+    "cctv": {
+      "codepoint": 61704,
+      "source": "svg/cctv.svg"
+    },
+    "clover": {
+      "codepoint": 61705,
+      "source": "svg/clover.svg"
+    },
+    "cnbeta": {
+      "codepoint": 61706,
+      "source": "svg/cnbeta.svg"
+    },
+    "ctrip": {
+      "codepoint": 61707,
+      "source": "svg/ctrip.svg"
+    },
+    "dangdang": {
+      "codepoint": 61708,
+      "source": "svg/dangdang.svg"
+    },
+    "dazhong": {
+      "codepoint": 61709,
+      "source": "svg/dazhong.svg"
+    },
+    "dianping": {
+      "codepoint": 61710,
+      "source": "svg/dianping.svg"
+    },
+    "dianxin": {
+      "codepoint": 61711,
+      "source": "svg/dianxin.svg"
+    },
+    "dongfangweishi": {
+      "codepoint": 61712,
+      "source": "svg/dongfangweishi.svg"
+    },
+    "douban": {
+      "codepoint": 61713,
+      "source": "svg/douban.svg"
+    },
+    "fanfou": {
+      "codepoint": 61714,
+      "source": "svg/fanfou.svg"
+    },
+    "fangzheng": {
+      "codepoint": 61715,
+      "source": "svg/fangzheng.svg"
+    },
+    "feixin": {
+      "codepoint": 61716,
+      "source": "svg/feixin.svg"
+    },
+    "fenghuangweishi": {
+      "codepoint": 61717,
+      "source": "svg/fenghuangweishi.svg"
+    },
+    "ganji": {
+      "codepoint": 61718,
+      "source": "svg/ganji.svg"
+    },
+    "gongshangyinhang": {
+      "codepoint": 61719,
+      "source": "svg/gongshangyinhang.svg"
+    },
+    "jd": {
+      "codepoint": 61720,
+      "source": "svg/jd.svg"
+    },
+    "jiansheyinhang": {
+      "codepoint": 61721,
+      "source": "svg/jiansheyinhang.svg"
+    },
+    "jiaotongyinhang": {
+      "codepoint": 61722,
+      "source": "svg/jiaotongyinhang.svg"
+    },
+    "jijia": {
+      "codepoint": 61723,
+      "source": "svg/jijia.svg"
+    },
+    "kingsoft": {
+      "codepoint": 61724,
+      "source": "svg/kingsoft.svg"
+    },
+    "kuandaishan": {
+      "codepoint": 61725,
+      "source": "svg/kuandaishan.svg"
+    },
+    "kx001": {
+      "codepoint": 61726,
+      "source": "svg/kx001.svg"
+    },
+    "letv": {
+      "codepoint": 61727,
+      "source": "svg/letv.svg"
+    },
+    "liantong": {
+      "codepoint": 61728,
+      "source": "svg/liantong.svg"
+    },
+    "lianxiang": {
+      "codepoint": 61729,
+      "source": "svg/lianxiang.svg"
+    },
+    "miliao": {
+      "codepoint": 61730,
+      "source": "svg/miliao.svg"
+    },
+    "mop": {
+      "codepoint": 61731,
+      "source": "svg/mop.svg"
+    },
+    "pengyouquan": {
+      "codepoint": 61732,
+      "source": "svg/pengyouquan.svg"
+    },
+    "pps": {
+      "codepoint": 61733,
+      "source": "svg/pps.svg"
+    },
+    "qq": {
+      "codepoint": 61734,
+      "source": "svg/qq.svg"
+    },
+    "qqyinyue": {
+      "codepoint": 61735,
+      "source": "svg/qqyinyue.svg"
+    },
+    "qzone": {
+      "codepoint": 61736,
+      "source": "svg/qzone.svg"
+    },
+    "renminyinhang": {
+      "codepoint": 61737,
+      "source": "svg/renminyinhang.svg"
+    },
+    "renren": {
+      "codepoint": 61738,
+      "source": "svg/renren.svg"
+    },
+    "shanghaidianshitai": {
+      "codepoint": 61739,
+      "source": "svg/shanghaidianshitai.svg"
+    },
+    "shanghaiyinhang": {
+      "codepoint": 61740,
+      "source": "svg/shanghaiyinhang.svg"
+    },
+    "taobao": {
+      "codepoint": 61741,
+      "source": "svg/taobao.svg"
+    },
+    "tengxunweibo": {
+      "codepoint": 61742,
+      "source": "svg/tengxunweibo.svg"
+    },
+    "tmall": {
+      "codepoint": 61743,
+      "source": "svg/tmall.svg"
+    },
+    "tudou": {
+      "codepoint": 61744,
+      "source": "svg/tudou.svg"
+    },
+    "v2ex": {
+      "codepoint": 61745,
+      "source": "svg/v2ex.svg"
+    },
+    "wangyi": {
+      "codepoint": 61746,
+      "source": "svg/wangyi.svg"
+    },
+    "wangyiweibo": {
+      "codepoint": 61747,
+      "source": "svg/wangyiweibo.svg"
+    },
+    "wangyiyunyinyue": {
+      "codepoint": 61748,
+      "source": "svg/wangyiyunyinyue.svg"
+    },
+    "wechat": {
+      "codepoint": 61749,
+      "source": "svg/wechat.svg"
+    },
+    "weibo": {
+      "codepoint": 61750,
+      "source": "svg/weibo.svg"
+    },
+    "weifeng": {
+      "codepoint": 61751,
+      "source": "svg/weifeng.svg"
+    },
+    "xiami": {
+      "codepoint": 61752,
+      "source": "svg/xiami.svg"
+    },
+    "xiaomi": {
+      "codepoint": 61753,
+      "source": "svg/xiaomi.svg"
+    },
+    "xinyeyinhang": {
+      "codepoint": 61754,
+      "source": "svg/xinyeyinhang.svg"
+    },
+    "xunlei": {
+      "codepoint": 61755,
+      "source": "svg/xunlei.svg"
+    },
+    "yihaodian": {
+      "codepoint": 61756,
+      "source": "svg/yihaodian.svg"
+    },
+    "yilong": {
+      "codepoint": 61757,
+      "source": "svg/yilong.svg"
+    },
+    "yinlian": {
+      "codepoint": 61758,
+      "source": "svg/yinlian.svg"
+    },
+    "yixun": {
+      "codepoint": 61759,
+      "source": "svg/yixun.svg"
+    },
+    "youdao": {
+      "codepoint": 61760,
+      "source": "svg/youdao.svg"
+    },
+    "youku": {
+      "codepoint": 61761,
+      "source": "svg/youku.svg"
+    },
+    "youzhen": {
+      "codepoint": 61762,
+      "source": "svg/youzhen.svg"
+    },
+    "zhaoshangyinhang": {
+      "codepoint": 61763,
+      "source": "svg/zhaoshangyinhang.svg"
+    },
+    "zhenai": {
+      "codepoint": 61764,
+      "source": "svg/zhenai.svg"
+    },
+    "zheshangyinhang": {
+      "codepoint": 61765,
+      "source": "svg/zheshangyinhang.svg"
+    },
+    "zhihu": {
+      "codepoint": 61766,
+      "source": "svg/zhihu.svg"
+    },
+    "zhihu-square": {
+      "codepoint": 61767,
+      "source": "svg/zhihu-square.svg"
+    },
+    "zhongguoyinhang": {
+      "codepoint": 61768,
+      "source": "svg/zhongguoyinhang.svg"
+    },
+    "zhongxinyinhang": {
+      "codepoint": 61769,
+      "source": "svg/zhongxinyinhang.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": "fontdiao.yml",
+    "css_selector": ".icon-{{glyph}}",
+    "data_cache": "/tmp/fontcustom",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "fontdiao",
+    "force": false,
+    "input": {
+      "templates": "templates",
+      "vectors": "svg"
+    },
+    "no_hash": true,
+    "output": {
+      "NSString+FontDiao.h": "fontdiao/ios/FontDiao",
+      "NSString+FontDiao.m": "fontdiao/ios/FontDiao",
+      "css": "fontdiao/css",
+      "fonts": "fontdiao/font",
+      "index.html": "./",
+      "preview": "fontdiao/font"
+    },
+    "preprocessor_path": null,
+    "project_root": "./",
+    "quiet": false,
+    "templates": [
+      "index.html",
+      "scss",
+      "scss-rails",
+      "css",
+      "NSString+FontDiao.h",
+      "NSString+FontDiao.m"
+    ]
+  },
+  "templates": [
+    "./index.html",
+    "fontdiao/css/_fontdiao.scss",
+    "fontdiao/css/_fontdiao-rails.scss",
+    "fontdiao/css/fontdiao.css",
+    "fontdiao/ios/FontDiao/NSString+FontDiao.h",
+    "fontdiao/ios/FontDiao/NSString+FontDiao.m"
+  ]
+}

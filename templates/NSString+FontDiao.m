@@ -55,8 +55,9 @@
     static dispatch_once_t iconsToken;
     static NSArray *fontDiaoIcons;
     dispatch_once(&iconsToken, ^{
-        fontDiaoIcons = @[<% @glyphs.each_with_index do |name, index| %>
-            @"\u<%= (61696+index).to_s(16) %>"<% if index != @glyphs.length - 1 %>,<% end %><% end %>
+        fontDiaoIcons = @[<% @glyphs.each do |name, value|
+          %>
+            @"\u<%= value[:codepoint].to_s(16) %>"<% if value[:codepoint] != @glyphs.length - 1 %>,<% end %><% end %>
         ];
     });
     return fontDiaoIcons;
@@ -68,8 +69,10 @@
     static NSDictionary *enumDictionary;
     dispatch_once(&enumToken, ^{
         NSMutableDictionary *d = [[NSMutableDictionary alloc] init];
-        <% @glyphs.each_with_index do |name, index| %>
-        d[@"<%= @opts.css_prefix %><%= name %>"] = @(FDIcon<%= name.capitalize.delete '-' %>);<% end %>
+        <% @glyphs.each do |name, value|
+          selector = @options[:css_selector].sub('{{glyph}}', name.to_s)
+          %>
+        d[@"<%= selector[1..-1].gsub('.', ' ') %>"] = @(FDIcon<%= name.to_s.capitalize.delete '-' %>);<% end %>
 
         enumDictionary = d;
     });

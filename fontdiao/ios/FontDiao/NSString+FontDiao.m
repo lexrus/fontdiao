@@ -128,7 +128,8 @@
             @"\uf145",
             @"\uf146",
             @"\uf147",
-            @"\uf148"
+            @"\uf148",
+            @"\uf149",
         ];
     });
     return fontDiaoIcons;
@@ -177,6 +178,7 @@
         d[@"icon-lianxiang"] = @(FDIconLianxiang);
         d[@"icon-miliao"] = @(FDIconMiliao);
         d[@"icon-mop"] = @(FDIconMop);
+        d[@"icon-pengyouquan"] = @(FDIconPengyouquan);
         d[@"icon-pps"] = @(FDIconPps);
         d[@"icon-qq"] = @(FDIconQq);
         d[@"icon-qqyinyue"] = @(FDIconQqyinyue);
@@ -210,8 +212,8 @@
         d[@"icon-zhaoshangyinhang"] = @(FDIconZhaoshangyinhang);
         d[@"icon-zhenai"] = @(FDIconZhenai);
         d[@"icon-zheshangyinhang"] = @(FDIconZheshangyinhang);
-        d[@"icon-zhihu-square"] = @(FDIconZhihusquare);
         d[@"icon-zhihu"] = @(FDIconZhihu);
+        d[@"icon-zhihu-square"] = @(FDIconZhihusquare);
         d[@"icon-zhongguoyinhang"] = @(FDIconZhongguoyinhang);
         d[@"icon-zhongxinyinhang"] = @(FDIconZhongxinyinhang);
 
@@ -220,7 +222,7 @@
     return enumDictionary;
 }
 
-+ (uint)fontDiaoIconsCount
++ (NSUInteger)fontDiaoIconsCount
 {
     return [self fontDiaoIcons].count;
 }

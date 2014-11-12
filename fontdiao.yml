@@ -5,7 +5,7 @@
 # ---------------------------------------------------------------------------- #
 
 font_name: fontdiao
-css_prefix: icon-
+css_selector: .icon-{{glyph}}
 #preprocessor_path: ""
 no_hash: true
 debug: false

@@ -18,7 +18,6 @@
         <a class="btn btn-default" href="https://github.com/lexrus/fontdiao">GitHub 仓库</a>
         <a class="btn btn-default" href="https://github.com/lexrus/fontdiao/archive/master.zip">下载 fontdiao.zip</a>
         <a class="btn btn-default" href="https://twitter.com/lexrus">关注 @lexrus</a>
-        <a class="btn btn-default" href="https://me.alipay.com/lexrus">支付宝资助</a>
     </div>
 
     <section id="screenshot" class="text-center">
@@ -26,12 +25,14 @@
     </section>
 
     <section class="row">
-        <% @glyphs.each_with_index do |name, index| %>
+        <% @glyphs.each do |name, value|
+          selector = @options[:css_selector].sub('{{glyph}}', name.to_s)
+        %>
         <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3 glyph">
-            <i class="<%= @opts.css_prefix + name %>"></i>
-            <input type="text" readonly="readonly" onClick="this.select();" value="<%= name %>"/>
+            <i class="<%= selector[1..-1].gsub('.', ' ') %>"></i>
+            <input type="text" readonly="readonly" onClick="this.select();" value="<%= selector[1..-1].gsub('.', ' ') %>"/>
             <input type="text" readonly="readonly" onClick="this.select();"
-                   value="&amp;#x<%= (61696+index).to_s(16) %>;"/>
+                   value="&amp;#x<%= value[:codepoint].to_s(16) %>;"/>
         </div>
         <% end %>
     </section>
@@ -69,7 +70,7 @@
         Font屌 的所有图标来自互联网，大部分图标由位图转为矢量图，经过人工调整后，由 <a href="http://fontcustom.com">Font Custom</a> 转为字体。<br/>
         Font屌 的 SVG、字体、CSS、HTML 遵循 <a href="http://www.wtfpl.net/">WTFPL</a>(爱咋整咋整) 协议，随便你怎么用，我不拒绝、不承诺、不负责。<br/>
         Font屌 的 iOS 源码遵循 MIT 协议。<br/>
-        &copy; 版权没有 2013 <a href="http://lextang.com/">LexTang.com</a>
+        &copy; 版权没有 2014 <a href="http://lextang.com/">LexTang.com</a>
     </footer>
 </div>
 </body>

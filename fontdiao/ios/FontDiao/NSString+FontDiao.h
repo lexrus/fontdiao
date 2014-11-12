@@ -31,7 +31,7 @@
 static NSString *const kFontDiaoFamilyName = @"fontdiao";
 
 typedef NS_ENUM(NSInteger, FDIcon) {
-    FDIcon360yunpan = 0,
+    FDIcon360yunpan,
     FDIcon58,
     FDIconAcer,
     FDIconAlibaba,
@@ -67,6 +67,7 @@ typedef NS_ENUM(NSInteger, FDIcon) {
     FDIconLianxiang,
     FDIconMiliao,
     FDIconMop,
+    FDIconPengyouquan,
     FDIconPps,
     FDIconQq,
     FDIconQqyinyue,
@@ -100,10 +101,10 @@ typedef NS_ENUM(NSInteger, FDIcon) {
     FDIconZhaoshangyinhang,
     FDIconZhenai,
     FDIconZheshangyinhang,
-    FDIconZhihusquare,
     FDIconZhihu,
+    FDIconZhihusquare,
     FDIconZhongguoyinhang,
-    FDIconZhongxinyinhang
+    FDIconZhongxinyinhang,
 };
 
 @interface NSString (FontDiao)
@@ -116,6 +117,6 @@ typedef NS_ENUM(NSInteger, FDIcon) {
 
 + (NSDictionary*)fontDiaoIconsDictionary;
 
-+ (uint)fontDiaoIconsCount;
++ (NSUInteger)fontDiaoIconsCount;
 
 @end
